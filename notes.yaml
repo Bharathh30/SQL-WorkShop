@@ -76,3 +76,46 @@ USER is "SYS"
 
 alter user username identified by password account unlock;
           system                  system   
+
+
+
+Format
+create table_name(column_1_name datatype(size),
+column_2_name datatype(size),
+column_3_name datatype(size),..........
+column_n_name datatype(size));
+
+
+To view the structure of the table use 
+desc table_name;
+
+
+alter:add
+=========
+alter table table_name add(column_name datatype(size));
+
+
+
+alter:modify
+====================
+alter table table_name modify column_name datatype(size);
+
+
+alter:drop
+====================
+alter table table_name drop (column_name);
+
+drop table table_name;
+
+flashback
+====================
+flashback table table_name to before drop;
+
+
+alter:rename
+====================
+alter table table_name rename column column_name to new_column_name;
+
+alter:table_name
+=====================
+alter table table_name rename to new table_name;
