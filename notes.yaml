@@ -1,0 +1,57 @@
+Workshop
+
+
+SQL Language Categories
+
+-DDL
+-DML
+-DCL
+-TCL
+-DRL
+
+
+SQl Schema objects
+
+-Table
+-Constraints
+-Views
+-Sequences
+-Synonyms
+-Indexes
+
+
+Functions
+Joins
+Sub Queries
+
+
+DDL stands for Data Defination Language 
+
+-Create
+-Alter(ADD,RENAME,MODIFY,DROP)
+-Truncate
+-FlashBack
+-Purg
+-Comment
+
+
+DML stands for Data Manipulation Language
+
+-Insert
+-Update
+-Delete
+
+DCL stands for Data Control Language
+
+-Grant
+-Revoke
+
+TCL stands for Transaction Control Language
+
+-Commit
+-Rollback
+-Savepoint
+
+DRL stands for Data Retrieval Language
+
+-Select
