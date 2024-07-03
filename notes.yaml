@@ -55,3 +55,24 @@ TCL stands for Transaction Control Language
 DRL stands for Data Retrieval Language
 
 -Select
+
+--------How to Connect to system user
+
+conn (enter)
+Enter user-name: system
+Enter password: 
+connected
+
+show user;
+USER is "SYSTEM"
+
+conn(enter)
+Enter user-name: conn as sysdba
+Enter password:
+connected
+
+show user;
+USER is "SYS"
+
+alter user username identified by password account unlock;
+          system                  system   
